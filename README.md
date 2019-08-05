@@ -1,6 +1,6 @@
 # AD-Password-Auditor
 
-AD-Password-Auditor is Powershell tool to quickly evaluate password security for Active Directory accounts. It is wrapper script for [DSInternals](https://github.com/MichaelGrafnetter/DSInternals). It performs a dictionary attack on the stored password hashes, and outputs a file with the cracked login/password combinations. 
+AD-Password-Auditor is Powershell tool to quickly evaluate password security for Active Directory accounts. It is a wrapper script for [DSInternals](https://github.com/MichaelGrafnetter/DSInternals). It performs a dictionary attack on the stored password hashes, and outputs a file with the cracked login/password combinations. 
 
 ## Getting started
 
@@ -52,4 +52,4 @@ Cracking is a CPU intensive task. For optimum results, it is recommended to laun
 
 ### Wordlist size
 
-Wordlists are loaded in RAM. It is recommended to provide wordlists of 500Mb at most to avoid significant slowdowns.
+Wordlists are loaded in RAM. It is recommended to provide wordlists smaller than 500Mb to avoid significant slowdowns.
